@@ -20,5 +20,6 @@ public class DataTypes_in_java {
         //long
         //double
         short n=240;
+        System.out.println(n);
     }
 }

@@ -18,7 +18,6 @@ public class sum_evem_and_odd_number {
             }
             
         }
-
         System.out.println("Odd sum : "+odd+"\nEven sum : "+even);
 
     }
