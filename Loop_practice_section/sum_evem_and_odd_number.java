@@ -2,6 +2,8 @@ package Loop_practice_section;
 import java.util.*;
 public class sum_evem_and_odd_number {
     public static void main(String[] args) {
+       
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to take input : ");
         int n = sc.nextInt();
