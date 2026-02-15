@@ -6,6 +6,7 @@ public class lower_right_triangle {
 
         for(int r =1;r<=n;r++){
             for(int c=1;c<=n;c++){
+                //c+r<=2*n && c+r>n
                 if(c+r<=2*n && c+r>n){
                     System.out.print("*");
                 } else{
