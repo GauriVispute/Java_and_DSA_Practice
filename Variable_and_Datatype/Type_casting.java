@@ -1,6 +1,5 @@
 package Variable_and_Datatype;
 
-import java.util.Scanner;
 public class Type_casting{
     public static void main(String [] args){
        /* 

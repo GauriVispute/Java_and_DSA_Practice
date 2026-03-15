@@ -19,11 +19,10 @@ public class type_conversion{
         System.out.println(number);  // not allowed 
         */
 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner (System.in);
         float number = sc.nextInt();
         System.out.println(number); // this allowed
-
-        
 
     }
 }
