@@ -23,9 +23,7 @@ public class type_conversion{
         float number = sc.nextInt();
         System.out.println(number); // this allowed
 
-
-
-
+        
 
     }
 }

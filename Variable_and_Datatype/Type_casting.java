@@ -60,5 +60,7 @@ public class Type_casting{
         char ch= 'A';
         int number  = ch;
         System.out.println(number);
+
+        
     }
 }

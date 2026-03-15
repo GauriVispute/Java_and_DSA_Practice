@@ -9,5 +9,8 @@ public class sum_two_numbers {
 
         int sum = a+b;
         System.out.println(sum);
+
+
+        
     }
 }
