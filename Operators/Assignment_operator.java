@@ -2,23 +2,35 @@ package Operators;
 
 public class Assignment_operator{
     public static void main(String [] args){
-        int A = 10;
-        int B = 5;
+        int A = 10 ;
+        int B = 5 ;
+         
+        /* Assignment operator */
+        
+        // A = B;
+        // System.out.println(A);
+       
+        /* Addition */
+        // A = A+10;
+        // A +=10 ;
+        // System.out.println(A);
 
-        //addition
-        System.out.println("Addition = "+(A+B));
+        /* Subtraction */
+        // B = B -5;
+        // B -=5;
 
-        // subtraction
-        System.out.println("Subtraction = "+(A-B));
+        /* Multiplication */
+        // B*=5;
 
-        //multiplication
-        System.out.println("Multiplication = "+(A*B));
+        /* Division */
+        // B/=5;
 
-        // division
-        // quotient
-        System.out.println("Division (Quotient) = "+(A/B));
+        /* Modulas */
+        B %= 5;
+        System.out.println(B);
 
-        //modulo (Remainder)
-        System.out.println("Division (Remainder) = "+(A%B));
+                
+        
+        
     }
 }
