@@ -11,9 +11,9 @@ public class Assignment_operator{
         // System.out.println(A);
        
         /* Addition */
-        // A = A+10;
-        // A +=10 ;
-        // System.out.println(A);
+        A = A+10;
+        A +=10 ;
+        System.out.println(A);
 
         /* Subtraction */
         // B = B -5;
