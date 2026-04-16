@@ -1,7 +1,31 @@
 package Conditional_statements_extra_question;
 
+import java.util.Scanner;
 public class display_week_name_using_switch_case {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the number for week-name : ");
+        int number = sc.nextInt();
         
+        switch(number){
+            case 1 : System.out.println("Monday");
+            break;
+            case 2 : System.out.println("Tuesday");
+            break;
+            case 3 : System.out.println("Wednesday");
+            break;
+            case 4 : System.out.println("Thusday");
+            break;
+            case 5 : System.out.println("Friday");
+            break;
+            case 6 : System.out.println("Saturday");
+            break;
+            case 7 : System.out.println("Sunday");
+            break;
+            default: System.out.println("Oops ! give wrong entry!!");
+        }
+
+        sc.close();
     }  
 }
