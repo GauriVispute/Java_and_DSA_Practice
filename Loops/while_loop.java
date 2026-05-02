@@ -9,5 +9,17 @@ public class while_loop {
         }
 
         System.out.println("------- Printed HW "+counter+"x -------");
+
+
+        /*
+            -- Infinite Loop -- 
+            while(true){
+            System.out.println(counter+" Hello World");
+            counter++;
+        }
+
+        -- Unreachable code --
+        System.out.println("------- Printed HW "+counter+"x -------");
+        */
     }
 }
