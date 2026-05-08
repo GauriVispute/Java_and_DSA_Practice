@@ -15,6 +15,6 @@ public class sum_of_all_natural_numbers{
 			counter++;
 		}
 		
-		System.out.println("Sum : "+sum);;
+		System.out.println("Sum : "+sum);
   }
 }
