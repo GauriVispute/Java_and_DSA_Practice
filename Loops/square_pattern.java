@@ -1,3 +1,5 @@
+ package Loops;
+
 public class square_pattern{
 	public static void main(String[] args) {
 		/*

@@ -1,3 +1,5 @@
+ package Loops;
+
 public  class reverse_number{
 	public static void main(String[] args) {
 		int n =10899,reverse=0;
