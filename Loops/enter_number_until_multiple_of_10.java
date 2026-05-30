@@ -6,7 +6,7 @@ public class enter_number_until_multiple_of_10 {
 		Scanner sc = new Scanner(System.in);
 		
    // taking infinite loop
-		for(int i=1;;i++){
+		for(;;){
 			System.out.print("Entered number  : ");
 			int n = sc.nextInt();
 			System.out.println("You entered : "+n);
@@ -14,7 +14,7 @@ public class enter_number_until_multiple_of_10 {
 			   System.out.println("Encountered multiple of 10");
 				break;
 			}
-		
+	
 		}
 			System.out.println("You are out off the loop");
 
@@ -31,5 +31,7 @@ do{
 	     System.out.println("You entered :  "+ n);   
   	}while(true);
   	System.out.println("you are out of the loop");
+
+	sc.close();
 	}
 }
