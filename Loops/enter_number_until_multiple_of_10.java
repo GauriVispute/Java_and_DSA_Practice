@@ -1,0 +1,35 @@
+package Loops;
+import java.util.Scanner;
+
+public class enter_number_until_multiple_of_10 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+   // taking infinite loop
+		for(int i=1;;i++){
+			System.out.print("Entered number  : ");
+			int n = sc.nextInt();
+			System.out.println("You entered : "+n);
+			if (n%10==0){
+			   System.out.println("Encountered multiple of 10");
+				break;
+			}
+		
+		}
+			System.out.println("You are out off the loop");
+
+
+// also by using do while loop
+
+do{
+	     System.out.print("Enter Number : ");
+	     int n = sc.nextInt();
+	     if(n%10 == 0){
+	     System.out.println("Encountered multiple of 10 ");
+	     break;
+	     }
+	     System.out.println("You entered :  "+ n);   
+  	}while(true);
+  	System.out.println("you are out of the loop");
+	}
+}
